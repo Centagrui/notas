@@ -14,7 +14,7 @@ import com.example.notas.ui.theme.NotasTheme
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        // setContent lo usamos para que se mostrara ya la pantalla
+        // setContent  para que se mostrara ya la pantalla
         setContent {
             NotasTheme {
                 Surface(
