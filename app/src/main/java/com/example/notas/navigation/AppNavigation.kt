@@ -16,3 +16,4 @@ fun AppNavigation(navController: NavHostController) {
         composable("taskDetail") { TaskDetailScreen(navController) }
     }
 }
+
